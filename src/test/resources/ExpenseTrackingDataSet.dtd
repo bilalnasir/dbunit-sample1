@@ -1,0 +1,28 @@
+<!ELEMENT dataset (
+    expense*,
+    expense_type*)>
+
+<!ELEMENT expense_type EMPTY>
+<!ATTLIST expense_type
+	id CDATA #REQUIRED
+	name CDATA #REQUIRED
+	description CDATA #REQUIRED
+	status CDATA #REQUIRED
+>
+
+<!ELEMENT expense EMPTY>
+<!ATTLIST expense
+	id  CDATA #REQUIRED
+	expense_id  CDATA #REQUIRED
+	title  CDATA #REQUIRED
+	image  CDATA #REQUIRED
+	paid  CDATA #REQUIRED
+	reimbursable  CDATA #REQUIRED
+	total  CDATA #REQUIRED
+	status  CDATA #REQUIRED
+	date  CDATA #REQUIRED   
+>
+
+
+
+

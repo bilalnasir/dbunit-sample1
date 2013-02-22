@@ -1,0 +1,18 @@
+<!DOCTYPE dataset SYSTEM "src/test/resources/ExpenseTrackingDataSet.dtd">
+<!-- Dataset for testing -->
+<dataset>
+
+	<expense_type id="1" name="food" description="food expense"
+		 status="true" />
+	<expense_type id="2" name="travel" description="travel expense"
+		 status="true" />
+		 
+		 
+	<expense id="1" expense_id="1"
+		date="2008-02-02" paid="true" reimbursable = "true" image = "null" total="300" 
+		status="approved" title="food expense"  />
+	<expense id="2" expense_id="2"
+		date="2008-02-02" paid="true" reimbursable = "true" image = "null" total="1000" 
+		status="approved" title="travel expense"  />
+		
+</dataset>
